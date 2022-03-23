@@ -1,0 +1,47 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+i{
+    color: blue;
+}
+
+button{
+    font-size : 3em;
+    height: 60px;
+    width: 440px;
+    margin-top: 4vh;
+    border-radius: 10px;
+    background: #f4511e;
+    color: #f8d825;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+div{
+    text-align: center;
+}
+
+#play span {
+    position: relative;
+    transition: 0.5s;
+  }
+  
+#play span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -40px;
+    transition: 0.7s;
+  }
+
+#play:hover span {
+    padding-right: 25px;
+  }
+  
+#play:hover span:after {
+    opacity: 1;
+    right: -10px;
+  }
